@@ -56,42 +56,7 @@ roslaunch rgbdslam rgbdslam.launch
 
 # sunMaxwell 阳光明媚 AT: 2018.06.07
 
-# Adaptive HRI Library (自适应机器人交互软件库)
-
-roscore
-
-roslaunch usb_cam usb_cam-test.launch
-
-cd /home/intel/ai_ws/sdk_release/build/devel/lib/person_id
-
-./mobilenet_ssd_ncs
-
-打开新的终端：
-cd /home/intel/ai_ws/sdk_release/build/devel/lib/person_id
-
-./body_id
-
-打开新的终端：
-cd /home/intel/ai_ws/sdk_release/build/devel/lib/person_id
-
-./face_id
-
-打开新的终端：
-cd /home/intel/ai_ws/sdk_release/build/devel/lib/person_id
-
-./fusion
-
-启动UI界面：
-
-roslaunch rosbridge_server rosbridge_websocket.launch
-
-cd /home/intel/ai_ws/sdk_release/launch
-
-roslaunch web_video_server.launch
-
-用浏览器打开：/home/intel/ai_ws/sdk_release/ui/person_identify.html
-
-# sunMaxwell 阳光明媚 AT: 2018.09.05
+# 这是秘密，我不告诉你。
 
 
 
